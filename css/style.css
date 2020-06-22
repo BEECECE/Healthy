@@ -1,0 +1,182 @@
+/* NO MEDIA QUERIES TO FIX DIFFERENT DEVICES */
+
+
+/* DEFAULT VALUES 
+
+font : Oswald, sans serif;
+
+colors :
+- midnight blue : #2c3e50;
+- Alizarin : #e74c3c;
+
+------------   */
+
+/* ----- BASIC VALUES ------  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* ----- HEADER ------  */
+
+body {
+    background-color: #2c3e50;
+
+}
+
+header h1 {
+    text-align: center;
+    color: #2c3e50;
+    padding: 20px 0;
+}
+
+header h1 span {
+    color: #e74c3c;
+}
+
+/* ----- NAV-MENU ------  */
+
+.nav-menu {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #fafafa;
+}
+
+.nav-menu a {
+    color: #2c3e50;
+}
+
+.nav-menu a:hover {
+    color: #e74c3c;
+}
+
+.nav-menu li {
+    padding: 20px;
+}
+
+/* ----- SECTION ABOUT-TEXT ------  */
+
+.about-text {
+    padding: 0 50px;
+}
+
+.about-text h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    color: #e74c3c;
+    margin: 30px 0;
+}
+
+.about-text p {
+    font-weight: 400;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.about-text a {
+    font-weight: 700;
+    color: #e74c3c;
+}
+
+.about-text a:hover {
+    color: #2c3e50;
+}
+
+/* ----- SECTION SHOW - FOOD ------  */
+
+.show-food {
+    margin-top: 80px;
+    padding: 0 50px;
+}
+
+.food {
+    background-color: #2c3e50;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    color: #fff;
+}
+
+.food:nth-child(2){
+    background-color: #e74c3c;
+}
+
+.food .food-text {
+    padding: 20px;
+}
+
+.food img {
+    height: 100%;
+}
+
+.food-text h2 {
+    margin-bottom: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*  TRUY TO SELECT DIFFERENT COLORS POUR H2
+
+.food-text h2:hover {
+    color: #e74c3c;
+
+    h2:nth-child(2):hover{
+        color: #2c3e50;
+    }
+}
+
+        STILL TO BE DONE  */
+
+.food-text p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* ----- BIG IMAGE ------  */
+
+.big-image {
+    width: 80%;
+    margin: auto;
+}
+
+.big-image img {
+    width: 100%;
+}
+
+/* ----- FOOTER ------  */
+
+footer {
+    background-color: #e74c3c;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    padding: 15px;
+    font-size: 18px;
+}
+
+footer p {
+    letter-spacing: 3px;
+}
